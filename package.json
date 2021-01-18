@@ -1,0 +1,12 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:theS1LV3R/typescript-template.git",
+  "author": "S1LV3R <s1lv3r@corax.team>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
