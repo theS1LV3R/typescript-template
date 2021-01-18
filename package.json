@@ -1,20 +1,43 @@
 {
   "name": "typescript-template",
   "version": "1.0.0",
-  "main": "src/index.js",
-  "repository": "git@github.com:theS1LV3R/typescript-template.git",
+  "main": "dist/index.js",
+  "repository": "https://github.com/theS1LV3R/typescript-template",
+  "issues": "https://github.com/theS1LV3R/typescript-template/issues",
   "author": "S1LV3R <s1lv3r@corax.team>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon src/index.ts",
+    "dev:inspect": "cross-env NODE_ENV=development nodemon --exec node --trace-warnings --inspect --require ts-node/register src/index.ts",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "release": "standard-version"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "winston": "^3.3.3"
+  },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@types/node": "^14.14.21",
     "@typescript-eslint/eslint-plugin": "^4.14.0",
     "@typescript-eslint/parser": "^4.14.0",
+    "cross-env": "^7.0.3",
     "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
     "husky": "^4.3.8",
     "nodemon": "^2.0.7",
+    "prettier": "^2.2.1",
     "standard-version": "^9.1.0",
     "ts-node": "^9.1.1",
     "typescript": "^4.1.3"
