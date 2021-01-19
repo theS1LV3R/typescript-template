@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/theS1LV3R/typescript-template/compare/v1.0.0...v1.1.0) (2021-01-19)
+
+
+### Features
+
+* add es6 import example ([93bdab9](https://github.com/theS1LV3R/typescript-template/commit/93bdab9e569b79317ffcd3196db2395425a17c99))
+* add github templates ([919ed47](https://github.com/theS1LV3R/typescript-template/commit/919ed47f351c4abfe3eed7d1534d360acee1c021))
+
+
+### Style
+
+* formatting ([3c412a6](https://github.com/theS1LV3R/typescript-template/commit/3c412a6e40c270456b56e7071ca0d748cedc7f61))
+
+
+### Refactor
+
+* remove link to nonexistent file ([822180e](https://github.com/theS1LV3R/typescript-template/commit/822180eec75ad533a87ab709fb2bc3339cf950ad))
+
 ## 1.0.0 (2021-01-19)
 
 
