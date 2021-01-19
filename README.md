@@ -16,6 +16,8 @@ $$EXAMPLE;
 
 ```js
 const $$rePo = require("$$REPO");
+// Using ES6 import
+import $$rePo from "$$REPO";
 ```
 
 See [api_formatting.md](api_formatting.md) for tips.
