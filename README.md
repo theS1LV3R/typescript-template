@@ -36,8 +36,7 @@ yarn add $$REPO
 
 ## Acknowledgments
 
-$$
-REPO was inspired by...
+$$REPO was inspired by...
 
 ## See Also
 
