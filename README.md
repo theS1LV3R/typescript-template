@@ -20,8 +20,6 @@ const $$rePo = require("$$REPO");
 import $$rePo from "$$REPO";
 ```
 
-See [api_formatting.md](api_formatting.md) for tips.
-
 ## Installation
 
 With [npm](https://npmjs.org/):
