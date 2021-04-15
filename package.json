@@ -1,6 +1,6 @@
 {
   "name": "typescript-template",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "dist/index.js",
   "repository": "https://github.com/theS1LV3R/typescript-template",
   "issues": "https://github.com/theS1LV3R/typescript-template/issues",
