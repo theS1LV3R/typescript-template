@@ -45,5 +45,4 @@ $$REPO was inspired by...
 
 ## License
 
-$$ZEE_LICENSE
-$$
+See [`LICENSE`](./LICENSE)
