@@ -21,7 +21,7 @@ jobs:
 
       - name: Generate changelog
         run: |
-          if [[ -f changelog_tmp ]]; then; rm changelog_tmp; fi;
+          echo "" > changelog_tmp
           ./node_modules/.bin/standard-version -i changelog_tmp
 
       - name: Read changelog
