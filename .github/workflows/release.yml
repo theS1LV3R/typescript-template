@@ -3,8 +3,6 @@ on:
     # Sequence of patterns matched against refs/tags
     tags:
       - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
-    branches:
-      - 'release/*' # Create when a new release branch is pushed
 
 name: Create Draft Release
 
@@ -16,20 +14,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Install deps
-        run: yarn install
-
-      - name: Generate changelog
-        run: |
-          rm changelog_tmp
-          ./node_modules/.bin/standard-version -i changelog_tmp
-
-      - name: Read changelog
-        id: readfile
-        uses: juliangruber/read-file-action@v1
-        with:
-          path: ./package.json
-
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1.1.4
@@ -38,6 +22,6 @@ jobs:
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
-          body: ${{ steps.readfile.outputs.content }}
+          body: Grab changelog from CHANGELOG.md after merge
           draft: true
           prerelease: false

@@ -1,6 +1,6 @@
 {
   "name": "typescript-template",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "main": "dist/index.js",
   "repository": "https://github.com/theS1LV3R/typescript-template",
   "issues": "https://github.com/theS1LV3R/typescript-template/issues",
@@ -14,7 +14,8 @@
     "lint:fix": "eslint src --fix",
     "build": "tsc",
     "start": "node dist/index.js",
-    "release": "standard-version && echo \"Remember to tag merge commit\""
+    "version": "standard-version",
+    "postversion": "echo \"Remember to tag merge commit\""
   },
   "husky": {
     "hooks": {
