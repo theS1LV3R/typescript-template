@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://github.com/theS1LV3R/typescript-template/compare/v1.2.0...v1.2.1) (2021-05-18)
+
+
+### Chore
+
+* **deps:** add renovate config ([98d4839](https://github.com/theS1LV3R/typescript-template/commit/98d4839bdb9ed9b164cc8173f702e84e91e5efb2))
+
 ## [1.2.0](https://github.com/theS1LV3R/typescript-template/compare/v1.1.1...v1.2.0) (2021-05-18)
 
 
