@@ -14,7 +14,7 @@
     "lint:fix": "eslint src --fix",
     "build": "tsc",
     "start": "node dist/index.js",
-    "release": "standard-version"
+    "release": "standard-version && echo \"Remember to tag merge commit\""
   },
   "husky": {
     "hooks": {

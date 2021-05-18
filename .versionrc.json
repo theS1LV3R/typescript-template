@@ -8,5 +8,6 @@
     { "type": "refactor", "section": "Refactor", "hidden": false },
     { "type": "perf", "section": "Perf", "hidden": false },
     { "type": "test", "section": "Tests", "hidden": false }
-  ]
+  ],
+  "skip": { "tag": true }
 }
