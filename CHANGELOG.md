@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/theS1LV3R/typescript-template/compare/v1.1.0...v1.2.0) (2021-05-18)
+
+
+### Features
+
+* **ci:** create release script ([8bb19a6](https://github.com/theS1LV3R/typescript-template/commit/8bb19a66b9f26ce20682d361392390dbab8e6f26))
+
+
+### Bug Fixes
+
+* remove broken options ([5d488f4](https://github.com/theS1LV3R/typescript-template/commit/5d488f4eb33c2dfa1fc27d4b378f5132a3850732))
+
+
+### Docs
+
+* **readme:** link to license file in readme ([2f9ed7d](https://github.com/theS1LV3R/typescript-template/commit/2f9ed7df56d4ef5c9508045222952b29cdb7065d))
+
+
+### Chore
+
+* **deps:** update dependencies ([9835d05](https://github.com/theS1LV3R/typescript-template/commit/9835d052d24b4967bea1ce1e2dbcb52541e59711))
+* **deps:** update dependencies ([f5d2a8a](https://github.com/theS1LV3R/typescript-template/commit/f5d2a8a203d5a39e5a0f3472c714cf362ddcaf2a))
+* **release:** 1.1.1 ([4ddfd3a](https://github.com/theS1LV3R/typescript-template/commit/4ddfd3a337ad54da90728f7a79ce106c7ebea387))
+* **scripts:** fix release scripts ([133d139](https://github.com/theS1LV3R/typescript-template/commit/133d139521b1dee1f0b7c76da9674087c0f03fd5))
+
 ### [1.1.1](https://github.com/theS1LV3R/typescript-template/compare/v1.1.0...v1.1.1) (2021-04-15)
 
 
