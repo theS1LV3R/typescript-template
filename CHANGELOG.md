@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.3](https://github.com/theS1LV3R/typescript-template/compare/v1.2.2...v1.2.3) (2021-05-19)
+
+
+### Style
+
+* formatting ([e713a81](https://github.com/theS1LV3R/typescript-template/commit/e713a815929614882087d9ad43b44423b9708ae4))
+
+
+### Chore
+
+* update changelog types and sections ([a511a99](https://github.com/theS1LV3R/typescript-template/commit/a511a99b7f4fe343c48d85ef9ad2871b0e58c27c))
+* **deps:** add @commitlint/prompt-cli to deps ([4d00fb0](https://github.com/theS1LV3R/typescript-template/commit/4d00fb050e2c31b1dc2f3f55ae20a8be80adcb2d))
+
+
+### Other
+
+* add changelog generation to release workflow ([fee924a](https://github.com/theS1LV3R/typescript-template/commit/fee924a2321ecf16fcb54162f7056de6f9c98e82))
+* remove bump skipping ([41fa52b](https://github.com/theS1LV3R/typescript-template/commit/41fa52b8eb855cdf7f21860e1fd1fc2c32094f90))
+
 ### [1.2.2](https://github.com/theS1LV3R/typescript-template/compare/v1.2.1...v1.2.2) (2021-05-19)
 
 ### Bug Fixes
