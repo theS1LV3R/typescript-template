@@ -1,6 +1,6 @@
 {
   "name": "typescript-template",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "main": "dist/index.js",
   "repository": "https://github.com/theS1LV3R/typescript-template",
   "issues": "https://github.com/theS1LV3R/typescript-template/issues",
@@ -10,8 +10,8 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon src/index.ts",
     "dev:inspect": "cross-env NODE_ENV=development nodemon --exec node --trace-warnings --inspect --require ts-node/register src/index.ts",
-    "lint": "eslint src",
-    "lint:fix": "eslint src --fix",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\"",
+    "format": "prettier --write \"src/**/*.ts\"",
     "build": "tsc",
     "start": "node dist/index.js",
     "version": "standard-version",
@@ -23,24 +23,24 @@
     }
   },
   "dependencies": {
-    "dotenv": "^9.0.2",
-    "winston": "^3.3.3"
+    "dotenv": "9.0.2",
+    "winston": "3.3.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "^12.1.4",
-    "@commitlint/config-conventional": "^12.1.4",
-    "@types/node": "^15.3.0",
-    "@typescript-eslint/eslint-plugin": "^4.24.0",
-    "@typescript-eslint/parser": "^4.24.0",
-    "cross-env": "^7.0.3",
-    "eslint": "^7.26.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^3.4.0",
-    "husky": "^4.3.8",
-    "nodemon": "^2.0.7",
-    "prettier": "^2.3.0",
-    "standard-version": "^9.3.0",
-    "ts-node": "^9.1.1",
-    "typescript": "^4.2.4"
+    "@commitlint/cli": "12.1.4",
+    "@commitlint/config-conventional": "12.1.4",
+    "@types/node": "15.3.0",
+    "@typescript-eslint/eslint-plugin": "4.24.0",
+    "@typescript-eslint/parser": "4.24.0",
+    "cross-env": "7.0.3",
+    "eslint": "7.26.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "3.4.0",
+    "husky": "4.3.8",
+    "nodemon": "2.0.7",
+    "prettier": "2.3.0",
+    "standard-version": "9.3.0",
+    "ts-node": "9.1.1",
+    "typescript": "4.2.4"
   }
 }

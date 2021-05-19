@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.2](https://github.com/theS1LV3R/typescript-template/compare/v1.2.1...v1.2.2) (2021-05-19)
+
+
+### Bug Fixes
+
+* **deps:** fix renovate config ([02662ed](https://github.com/theS1LV3R/typescript-template/commit/02662edb1940b7dc839d65ff873d9e649d91dc9e))
+
+
+### Chore
+
+* add prettier config ([97da5f6](https://github.com/theS1LV3R/typescript-template/commit/97da5f6b76ab241ee8097ad0a55fdcb5cb3b60ab))
+* steal some stuff from gts ([2224431](https://github.com/theS1LV3R/typescript-template/commit/2224431b2eb4f35357de1e02eee93a5e1cbf4359))
+* **deps:** pin dependencies ([16e5abe](https://github.com/theS1LV3R/typescript-template/commit/16e5abece920c39569d298cb652d5b65c82cdb9e))
+* **deps:** rebuild lockfile ([f7fb098](https://github.com/theS1LV3R/typescript-template/commit/f7fb0981c0ff2d29e60e42ac8de4b3b28244a7ee))
+
 ### [1.2.1](https://github.com/theS1LV3R/typescript-template/compare/v1.2.0...v1.2.1) (2021-05-18)
 
 

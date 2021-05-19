@@ -1,4 +1,4 @@
-import winston from "winston";
+import winston from 'winston';
 
 const transports = [];
 
@@ -6,7 +6,7 @@ transports.push(
   new winston.transports.Console({
     format: winston.format.combine(
       winston.format.colorize(),
-      winston.format.timestamp({ format: "HH:mm:ss.SSS" }),
+      winston.format.timestamp({ format: 'HH:mm:ss.SSS' }),
       winston.format.printf(({ level, message, timestamp }) => {
         return `[${timestamp}] ${level}: ${message}`;
       })
@@ -15,7 +15,7 @@ transports.push(
 );
 
 const Logger = winston.createLogger({
-  level: process.env.LOGGER_LEVEL ?? "debug",
+  level: process.env.LOGGER_LEVEL ?? 'debug',
 
   levels: {
     error: 0,
