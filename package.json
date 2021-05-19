@@ -10,8 +10,8 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon src/index.ts",
     "dev:inspect": "cross-env NODE_ENV=development nodemon --exec node --trace-warnings --inspect --require ts-node/register src/index.ts",
-    "lint": "eslint src",
-    "lint:fix": "eslint src --fix",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\"",
+    "format": "prettier --write \"src/**/*.ts\"",
     "build": "tsc",
     "start": "node dist/index.js",
     "version": "standard-version",

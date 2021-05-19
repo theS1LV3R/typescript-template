@@ -1,11 +1,11 @@
-import { config } from "dotenv";
+import { config } from 'dotenv';
 config();
 
-import Logger from "./util/Logger";
+import Logger from './util/Logger';
 
-const info = "This uses info level";
-const verbose = "And this has verbose";
-const debug = "And i dont even know why you are debugging at this point";
+const info = 'This uses info level';
+const verbose = 'And this has verbose';
+const debug = 'And i dont even know why you are debugging at this point';
 
 export function doSomeStuff(
   infoMuch: string,
