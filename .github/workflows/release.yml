@@ -13,6 +13,13 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - run: git checkout HEAD^
+
+      - name: Install yarn if not already installed
+        run: if command -v yarn &> /dev/null; then echo "yarn is already installed, not doing anything"; else npm i -g yarn; fi
 
       - name: Install deps
         run: yarn install
@@ -20,7 +27,13 @@ jobs:
       - name: Generate changelog
         run: |
           echo "" > changelog_tmp
-          ./node_modules/.bin/standard-version -i changelog_tmp --skip.commit --skip.tag --header ""
+          ./node_modules/.bin/standard-version  \
+            -i changelog_tmp                    \
+            --header ""                         \
+            --skip.commit                       \
+            --skip.tag
+
+      - run: cat changelog_tmp
 
       - name: Create Release
         uses: ncipollo/release-action@v1
