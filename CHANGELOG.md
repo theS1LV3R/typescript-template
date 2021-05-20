@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.4](https://github.com/theS1LV3R/typescript-template/compare/v1.2.3...v1.2.4) (2021-05-20)
+
+
+### Chore
+
+* move away from git flow ([187e94e](https://github.com/theS1LV3R/typescript-template/commit/187e94e6f7908f8fa6c974fea96a280a04f042b4))
+* **deps:** update dependency @types/node to v15.3.1 ([f70aece](https://github.com/theS1LV3R/typescript-template/commit/f70aece645e7f98faf3d0f546973db9f42d5792d))
+
 ### [1.2.3](https://github.com/theS1LV3R/typescript-template/compare/v1.2.2...v1.2.3) (2021-05-19)
 
 
