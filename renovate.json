@@ -1,5 +1,5 @@
 {
   "extends": ["config:base"],
-  "baseBranches": ["dev"],
+  "baseBranches": ["master"],
   "schedule": ["at any time"]
 }
