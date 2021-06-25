@@ -11,6 +11,5 @@
     { "type": "build", "section": "Build", "hidden": false },
     { "type": "revert", "section": "Other", "hidden": false },
     { "type": "ci", "section": "Other", "hidden": false }
-  ],
-  "skip": { "tag": true }
+  ]
 }
