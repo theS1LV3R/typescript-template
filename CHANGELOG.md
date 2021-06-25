@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.5](https://github.com/theS1LV3R/typescript-template/compare/v1.2.4...v1.2.5) (2021-06-25)
+
+
+### Other
+
+* **release:** hopefully fix release workflow ([d125f7e](https://github.com/theS1LV3R/typescript-template/commit/d125f7e1ad45102476d26f5f293b03770e6f695c))
+
+
+### Chore
+
+* test commits ([bca61ca](https://github.com/theS1LV3R/typescript-template/commit/bca61ca7d63b48e57df8c508aa64f9dd014d1d36))
+* test commits ([0bca9f9](https://github.com/theS1LV3R/typescript-template/commit/0bca9f935d0dea25cfb7f63154900340dbc69c4b))
+* test commits ([3075876](https://github.com/theS1LV3R/typescript-template/commit/307587612dcf57d33d2924372033b4c6a97a97d5))
+* test commits ([0b00137](https://github.com/theS1LV3R/typescript-template/commit/0b00137c1c7d20bb5ee78d2206a2a3d596ee7dc9))
+* test commits ([c7bf41e](https://github.com/theS1LV3R/typescript-template/commit/c7bf41ea1bbb2b9cf8c660230c5200f8ec5eea93))
+* test commits ([061ccca](https://github.com/theS1LV3R/typescript-template/commit/061ccca928f8f1b75ab842f92ae262a209aa1c55))
+
 ### [1.2.4](https://github.com/theS1LV3R/typescript-template/compare/v1.2.3...v1.2.4) (2021-05-20)
 
 
