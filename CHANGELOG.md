@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.6](https://github.com/theS1LV3R/typescript-template/compare/v1.2.5...v1.2.6) (2021-06-25)
+
+
+### Other
+
+* add base publish CI file ([fd4da2f](https://github.com/theS1LV3R/typescript-template/commit/fd4da2f64c62601ea74b89d6c35508ca2b3cb93b))
+
+
+### Chore
+
+* re-enable automatic tagging of commits ([7fce05d](https://github.com/theS1LV3R/typescript-template/commit/7fce05d34b69677f3aaef3fa09293d85d0ba08bc))
+* **deps:** update dependency eslint to v7.29.0 ([#9](https://github.com/theS1LV3R/typescript-template/issues/9)) ([6025171](https://github.com/theS1LV3R/typescript-template/commit/602517101e394f360523423c33347c858b8b1241))
+* **deps:** update dependency prettier to v2.3.1 ([#8](https://github.com/theS1LV3R/typescript-template/issues/8)) ([86d93bc](https://github.com/theS1LV3R/typescript-template/commit/86d93bcaa2b8be069ba5628343473436871c54dd))
+* update readme and add notice ([8a29d56](https://github.com/theS1LV3R/typescript-template/commit/8a29d566c30e71dbc18c9581c625c35a7835b38d))
+* **renovate:** update renovate config to work on master branch ([b55c03c](https://github.com/theS1LV3R/typescript-template/commit/b55c03c9305fb85a07139c496366faffdd80f1de))
+
 ### [1.2.5](https://github.com/theS1LV3R/typescript-template/compare/v1.2.4...v1.2.5) (2021-06-25)
 
 
