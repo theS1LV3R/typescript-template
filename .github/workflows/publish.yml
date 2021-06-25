@@ -1,0 +1,37 @@
+on:
+  release:
+    types:
+      - published
+
+name: Publish to npm
+
+jobs:
+  publish:
+    name: Create release assets and publish
+    if: 'false' # Disabled due to not being complete yet
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+
+      - name: Install yarn if not already installed
+        run: if command -v yarn &> /dev/null; then echo "yarn is already installed, not doing anything"; else npm i -g yarn; fi
+
+      - name: Install deps
+        run: yarn --non-interactive install --production --frozen-lockfile
+
+      - name: Remove unneeded files
+        run: |
+          rm -rf .github changelog_tmp CHANGELOG.md CODE_OF_CONDUCT.md README.md                     # Misc files
+          rm .eslint{ignore,rc.json} .prettierrc .versionrc.json commitlint.config.js renovate.json  # Tool config files
+          rm .gitignore .gitattributes                                                               # Git files
+
+      - name: Build
+        run: yarn run build
+
+      - name: Publish
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
