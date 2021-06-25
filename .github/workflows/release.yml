@@ -21,8 +21,19 @@ jobs:
       - name: Install yarn if not already installed
         run: if command -v yarn &> /dev/null; then echo "yarn is already installed, not doing anything"; else npm i -g yarn; fi
 
+      - id: yarn-cache-dir # Stolen from https://github.com/actions/cache/blob/main/examples.md#node---yarn
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - name: Restore yarn cache dir (speeding up builds)
+        id: yarn-cache
+        uses: actions/cache@v2
+        with:
+          path: ${{ steps.yarn-cache-dir.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+
       - name: Install deps
-        run: yarn install
+        if: steps.yarn-cache.outputs.cache-hit != 'true'
+        run: yarn --non-interactive install --production --frozen-lockfile
 
       - name: Generate changelog
         run: |
