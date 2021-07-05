@@ -33,7 +33,7 @@ jobs:
 
       - name: Install deps
         if: steps.yarn-cache.outputs.cache-hit != 'true'
-        run: yarn --non-interactive install --production --frozen-lockfile
+        run: yarn --non-interactive install --frozen-lockfile
 
       - name: Generate changelog
         run: |
