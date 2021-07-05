@@ -2,6 +2,38 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.7](https://github.com/theS1LV3R/typescript-template/compare/v1.2.6...v1.2.7) (2021-07-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency dotenv to v10 ([13119fa](https://github.com/theS1LV3R/typescript-template/commit/13119fae28f26c7979ce6a504010c8c27e7136af))
+
+
+### Chore
+
+* disable automatic tagging of commits on release ([9f0fa0c](https://github.com/theS1LV3R/typescript-template/commit/9f0fa0ca17fbb1fdcee3f3d6aef1d855351d224d))
+* **deps:** update dependency eslint to v7.30.0 ([8588488](https://github.com/theS1LV3R/typescript-template/commit/8588488819d2931a8c28d34f3c1265a0f26ea2c9))
+* **deps:** update dependency nodemon to v2.0.8 ([ec0df0e](https://github.com/theS1LV3R/typescript-template/commit/ec0df0e9b95315b9479b1c68d5c26b515550dd9c))
+* **deps:** update dependency nodemon to v2.0.9 ([087613e](https://github.com/theS1LV3R/typescript-template/commit/087613efd360f6b38259dc5c54f5715484b38d38))
+* **deps:** update dependency prettier to v2.3.2 ([5f11cdd](https://github.com/theS1LV3R/typescript-template/commit/5f11cddc4df531e7a5b8c8ff066b563b0911da0f))
+* **deps:** update dependency ts-node to v10 ([5707df7](https://github.com/theS1LV3R/typescript-template/commit/5707df71094631e59121c203f0ae4c15065548a1))
+* **deps:** update dependency typescript to v4.3.4 ([19d2694](https://github.com/theS1LV3R/typescript-template/commit/19d2694b762b5bf47eefa1d002a148cdfefeefc0))
+* **deps:** update dependency typescript to v4.3.5 ([22d4b9a](https://github.com/theS1LV3R/typescript-template/commit/22d4b9ad09669e73d955a6a90905b1961ce088f8))
+* **deps:** update husky ([2af74b8](https://github.com/theS1LV3R/typescript-template/commit/2af74b81a6afed637b1b322bc076548409f2f2fe))
+* **deps:** update lockfile to be correct ([5bff5af](https://github.com/theS1LV3R/typescript-template/commit/5bff5afba390de79643b83ea0f371f92667fa758))
+* **deps:** update typescript-eslint monorepo to v4.28.0 ([c846d2d](https://github.com/theS1LV3R/typescript-template/commit/c846d2dca2c08b193efe50a2d8716ff6a6644a03))
+* **deps:** update typescript-eslint monorepo to v4.28.1 ([146eea8](https://github.com/theS1LV3R/typescript-template/commit/146eea88b8784f09fe48abc8d87c2169b6180bd8))
+* **deps:** update typescript-eslint monorepo to v4.28.2 ([f399e33](https://github.com/theS1LV3R/typescript-template/commit/f399e3397526687dff6c6bc5ddad2548324cdb0d))
+* **scripts:** add test script ([a9a8930](https://github.com/theS1LV3R/typescript-template/commit/a9a8930f560e54068f17cc9a4585f411008076e2))
+* **scripts:** update postversion script ([6bb43a7](https://github.com/theS1LV3R/typescript-template/commit/6bb43a73847c85ed9cf8a2324feb14e777b193fd))
+
+
+### Other
+
+* add caching for yarn installs ([b16e284](https://github.com/theS1LV3R/typescript-template/commit/b16e28431920e9be119a7c70a8358f8065e08cbe))
+* fix yarn install command ([3b08851](https://github.com/theS1LV3R/typescript-template/commit/3b08851b008eab9b15afb4b63e97b4706d78d5e9))
+
 ### [1.2.6](https://github.com/theS1LV3R/typescript-template/compare/v1.2.5...v1.2.6) (2021-06-25)
 
 
