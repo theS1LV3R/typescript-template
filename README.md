@@ -10,6 +10,7 @@ This is a simple template for creating typescript projects. It includes:
 - `package.json` scripts for running and developing
 - A README.md template as well as CODE_OF_CONDUCT
 - Renovate bot for updating deps + config (add from <https://github.com/marketplace/renovate>)
+- Semantic pull requests: <https://github.com/zeke/semantic-pull-requests>
 
 You can fill out the template README below and remove this notice,
 but please retain the notice to this repo as it helps it grow. A star would be awesome too :)
