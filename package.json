@@ -18,7 +18,7 @@
     "postversion": "echo \"Remember to sign any tags!\"",
     "commit": "commit",
     "prepare": "husky install",
-    "test":"echo \"Error: No test specified\" && exit 0"
+    "test": "echo \"Error: No test specified\" && exit 0"
   },
   "dependencies": {
     "dotenv": "10.0.0",
