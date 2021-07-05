@@ -13,7 +13,9 @@ This is a simple template for creating typescript projects. It includes:
 - Semantic pull requests: <https://github.com/zeke/semantic-pull-requests>
 
 You can fill out the template README below and remove this notice,
-but please retain the notice to this repo as it helps it grow. A star would be awesome too :)
+but please retain the acknowledgement to this repo below as it helps it grow.
+
+Also please leave a star if you found the repo useful, as it really helps me out ❤⭐
 
 ---
 
