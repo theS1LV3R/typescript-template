@@ -8,7 +8,7 @@ This is a simple template for creating typescript projects. It includes:
 - Conventional commits and commit message linting
   - Also automatic changelogs and version bumping
 - `package.json` scripts for running and developing
-- A README.md template as well as CODE_OF_CONDUCT
+- A README.md template as well as CODE_OF_CONDUCT.md and CONTRIBUTING.md
 - Renovate bot for updating deps + config (add from <https://github.com/marketplace/renovate>)
 - Semantic pull requests: <https://github.com/zeke/semantic-pull-requests>
 
