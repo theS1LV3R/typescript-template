@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.8](https://github.com/theS1LV3R/typescript-template/compare/v1.2.7...v1.2.8) (2021-07-14)
+
+
+### Bug Fixes
+
+* make pre-commit hook use yarn instead of npm ([de4c93c](https://github.com/theS1LV3R/typescript-template/commit/de4c93c79fd8e7574c56e05aae4ab18eb5a42355))
+
+
+### Other
+
+* **publish:** update publish workflow ([8d31610](https://github.com/theS1LV3R/typescript-template/commit/8d31610fc5188cb95d400a12cf16ebbfb4da49e7))
+
+
+### Chore
+
+* **deps:** update dependency standard-version to v9.3.1 ([247a0b6](https://github.com/theS1LV3R/typescript-template/commit/247a0b67182acd0f78c4bf7990308946ad97aff1))
+* update renovate config ([21bdcf7](https://github.com/theS1LV3R/typescript-template/commit/21bdcf7f367e97ca210c7b7f9b4dcbcd6943c8ab))
+* **deps:** update dependency husky to v7.0.1 ([2fb2b0f](https://github.com/theS1LV3R/typescript-template/commit/2fb2b0f17020220693530f302845706011c0fa66))
+* **deps:** update dependency nodemon to v2.0.10 ([26d8c50](https://github.com/theS1LV3R/typescript-template/commit/26d8c506e576a80d80ebeee3fcb47046b549cce5))
+* **deps:** update dependency nodemon to v2.0.11 ([e0b452f](https://github.com/theS1LV3R/typescript-template/commit/e0b452f1855978adbdc29c2b9e7b4740bceb50a0))
+* **deps:** update dependency nodemon to v2.0.12 ([03d4b48](https://github.com/theS1LV3R/typescript-template/commit/03d4b480ac5affffcefbf882b60bf9da8db950fb))
+* **deps:** update dependency ts-node to v10.1.0 ([692d70a](https://github.com/theS1LV3R/typescript-template/commit/692d70a37ac61c5e05daee00241255cc20652015))
+* **deps:** update typescript-eslint monorepo to v4.28.3 ([a427c37](https://github.com/theS1LV3R/typescript-template/commit/a427c37af4dcaedf49e45deec35ba7a8d6c4c9f1))
+* add notice to CONTRIBUTING.md ([30f2dad](https://github.com/theS1LV3R/typescript-template/commit/30f2dad459229a97b08bc1a283770afcabf5ebec))
+* add semantic-pull-requests config ([d43cea3](https://github.com/theS1LV3R/typescript-template/commit/d43cea378560b4110c8c589c58cd3ea572b223d8))
+* update readme ([ce4d9ba](https://github.com/theS1LV3R/typescript-template/commit/ce4d9bac74692439bb48f6142ce162379e85104a))
+
 ### [1.2.7](https://github.com/theS1LV3R/typescript-template/compare/v1.2.6...v1.2.7) (2021-07-05)
 
 
