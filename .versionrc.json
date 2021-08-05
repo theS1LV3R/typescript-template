@@ -12,5 +12,5 @@
     { "type": "revert", "section": "Other", "hidden": false },
     { "type": "ci", "section": "Other", "hidden": false }
   ],
-  "skip": { "tag": true }
+  "skip": { "tag": false }
 }
