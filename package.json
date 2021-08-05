@@ -22,10 +22,7 @@
     "test": "jest --detectOpenHandles --colors --verbose --reporters=default",
     "test:ci": "jest --ci --detectOpenHandles --colors --verbose --reporters=default"
   },
-  "dependencies": {
-    "dotenv": "10.0.0",
-    "winston": "3.3.3"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "13.1.0",
     "@commitlint/config-conventional": "13.1.0",
