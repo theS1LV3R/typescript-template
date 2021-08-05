@@ -2,6 +2,43 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/theS1LV3R/typescript-template/compare/v1.2.9...v2.0.0) (2021-08-05)
+
+
+### Bug Fixes
+
+* **test:** disable testing for compiled files ([267db39](https://github.com/theS1LV3R/typescript-template/commit/267db39353a428824403aac660400170e04a1d92))
+* **typescript:** disable tsconfig compiling test files ([c4e5b0c](https://github.com/theS1LV3R/typescript-template/commit/c4e5b0c038b891892f584645db8314ff372a7250))
+* **typescript:** fix tsconfig to work with jest ([db40948](https://github.com/theS1LV3R/typescript-template/commit/db40948b3a582b739d7d43765e6b44d8b845f02a))
+
+
+### Refactor
+
+* **example:** create new examples ([af83c29](https://github.com/theS1LV3R/typescript-template/commit/af83c29c9c239286b1cc1743588e591a7b836f58))
+
+
+### Tests
+
+* add testing ([0774da7](https://github.com/theS1LV3R/typescript-template/commit/0774da769b05cb77a31fc488dcbc9eab7ef82f86))
+
+
+### Docs
+
+* add documentation generation ([c192727](https://github.com/theS1LV3R/typescript-template/commit/c192727bf203c15c55a8c5167d3ddba8c647f792))
+
+
+### Other
+
+* finish publish workflow ([201ae0a](https://github.com/theS1LV3R/typescript-template/commit/201ae0a982926cfcbc233d8a4c36c4bf9655fb0a))
+
+
+### Chore
+
+* **deps:** pin @types/jest to 26.0.24 ([0c86028](https://github.com/theS1LV3R/typescript-template/commit/0c860283a44cbdb88de7ee46f700fddd7ebb1a06))
+* **deps:** rebuild lockfile ([62a6134](https://github.com/theS1LV3R/typescript-template/commit/62a6134b44e266b53323230876884e2f7f973339))
+* **deps:** remove unused deps ([ab8c395](https://github.com/theS1LV3R/typescript-template/commit/ab8c3950cc37be24c9b569314fd22abe80c8ee18))
+* re-enable automatic tagging of commits ([6223ff8](https://github.com/theS1LV3R/typescript-template/commit/6223ff868329db1ab5e3b22954a0a91b35907392))
+
 ### [1.2.9](https://github.com/theS1LV3R/typescript-template/compare/v1.2.8...v1.2.9) (2021-08-05)
 
 
