@@ -2,6 +2,7 @@
   "name": "typescript-template",
   "version": "1.2.9",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": "https://github.com/theS1LV3R/typescript-template",
   "issues": "https://github.com/theS1LV3R/typescript-template/issues",
   "author": "S1LV3R <s1lv3r@corax.team>",
