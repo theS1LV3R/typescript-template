@@ -19,7 +19,8 @@
     "postversion": "echo \"Remember to sign any tags!\"",
     "commit": "commit",
     "prepare": "husky install",
-    "test": "echo \"Error: No test specified\" && exit 0"
+    "test": "jest --detectOpenHandles --colors --verbose --reporters=default",
+    "test:ci": "jest --ci --detectOpenHandles --colors --verbose --reporters=default"
   },
   "dependencies": {
     "dotenv": "10.0.0",
@@ -29,6 +30,7 @@
     "@commitlint/cli": "13.1.0",
     "@commitlint/config-conventional": "13.1.0",
     "@commitlint/prompt-cli": "13.1.0",
+    "@types/jest": "^26.0.24",
     "@types/node": "15.3.1",
     "@typescript-eslint/eslint-plugin": "4.29.0",
     "@typescript-eslint/parser": "4.29.0",
@@ -37,9 +39,11 @@
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-prettier": "3.4.0",
     "husky": "7.0.1",
+    "jest": "27.0.6",
     "nodemon": "2.0.12",
     "prettier": "2.3.2",
     "standard-version": "9.3.1",
+    "ts-jest": "27.0.4",
     "ts-node": "10.1.0",
     "typescript": "4.3.5"
   }
