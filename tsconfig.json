@@ -22,7 +22,7 @@
     "strict": true,
 
     "outDir": "dist",
-    "rootDir": "src"
+    // "rootDir": "."
   },
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "_dev", "dist", "coverage"],
 }
