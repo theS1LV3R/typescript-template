@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.9](https://github.com/theS1LV3R/typescript-template/compare/v1.2.8...v1.2.9) (2021-08-05)
+
+
+### Other
+
+* removed git checkout command from codeql file ([844c6fc](https://github.com/theS1LV3R/typescript-template/commit/844c6fc39ce1e6f66fda2c0bb4d40139d5435171))
+* update branches for CodeQL ([0b54c32](https://github.com/theS1LV3R/typescript-template/commit/0b54c32694954eac472f73b06aa21dc3cdf69b6c))
+
+
+### Chore
+
+* **deps:** rebuild lockfile ([41b8041](https://github.com/theS1LV3R/typescript-template/commit/41b80413c65cf0f8e6ff0097a63673f0b5f72e41))
+* **deps:** rebuild lockfile ([77f01f6](https://github.com/theS1LV3R/typescript-template/commit/77f01f6d71caa50a52e4095c7cb75a43d428db8e))
+* **deps:** update commitlint monorepo to v13 ([f4f163a](https://github.com/theS1LV3R/typescript-template/commit/f4f163a02141fac1c97507d076f45330a1dadfe9))
+* **deps:** update dependency eslint to v7.31.0 ([3d6f8ef](https://github.com/theS1LV3R/typescript-template/commit/3d6f8ef46811092cb55464e05ad0ec5de8c2b1c9))
+* **deps:** update dependency eslint to v7.32.0 ([ed89414](https://github.com/theS1LV3R/typescript-template/commit/ed89414dad4c1335f33c668feb5106f1ab1cf48f))
+* **deps:** update typescript-eslint monorepo to v4.28.4 ([b607619](https://github.com/theS1LV3R/typescript-template/commit/b60761935e8be9bf8450395e3a38ec40f3609652))
+* **deps:** update typescript-eslint monorepo to v4.28.5 ([#33](https://github.com/theS1LV3R/typescript-template/issues/33)) ([68d36f2](https://github.com/theS1LV3R/typescript-template/commit/68d36f2cb5772475b79c841793a66c5bfc8f3776))
+* **deps:** update typescript-eslint monorepo to v4.29.0 ([9c618d6](https://github.com/theS1LV3R/typescript-template/commit/9c618d6b54bc1888c399e08af625ccbd617e79cd))
+
 ### [1.2.8](https://github.com/theS1LV3R/typescript-template/compare/v1.2.7...v1.2.8) (2021-07-14)
 
 
