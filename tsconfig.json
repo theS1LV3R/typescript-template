@@ -21,8 +21,13 @@
     "pretty": true,
     "strict": true,
 
-    "outDir": "dist",
+    "outDir": "dist"
     // "rootDir": "."
   },
-  "exclude": ["node_modules", "_dev", "dist", "coverage"],
+  "exclude": [
+    "node_modules",
+    "_dev",
+    "dist",
+    "coverage"
+  ]
 }
