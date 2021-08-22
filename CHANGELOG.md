@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.1](https://github.com/theS1LV3R/typescript-template/compare/v2.0.0...v2.0.1) (2021-08-22)
+
+
+### Chore
+
+* **deps:** pin dependency typedoc to 0.21.5 ([#36](https://github.com/theS1LV3R/typescript-template/issues/36)) ([f7078d8](https://github.com/theS1LV3R/typescript-template/commit/f7078d891dca9256e1ca297815026bcade4566c8))
+* **deps:** rebuild lockfile ([f01a8ef](https://github.com/theS1LV3R/typescript-template/commit/f01a8ef018cddb4d9b0a656f898b71bfa629daae))
+* **deps:** rebuild lockfile ([84f4a29](https://github.com/theS1LV3R/typescript-template/commit/84f4a299b533e0eca48fa7064af4d0fd126772b6))
+* **deps:** update dependency @types/jest to v27 ([#39](https://github.com/theS1LV3R/typescript-template/issues/39)) ([b6f01a0](https://github.com/theS1LV3R/typescript-template/commit/b6f01a046eff085d237bfb638469662635243dee))
+* **deps:** update dependency @types/jest to v27.0.1 ([79538aa](https://github.com/theS1LV3R/typescript-template/commit/79538aa0220e99e2c8f2b7d9bdaa735fa9e510ce))
+* **deps:** update dependency eslint-plugin-prettier to v3.4.1 ([6048479](https://github.com/theS1LV3R/typescript-template/commit/60484793efb92b0c817538170ea7177751fae030))
+* **deps:** update dependency ts-jest to v27.0.5 ([19e28ab](https://github.com/theS1LV3R/typescript-template/commit/19e28ab7d69795b85167d2bcce1897c40a693fc2))
+* **deps:** update dependency ts-node to v10.2.0 ([9bd7ec1](https://github.com/theS1LV3R/typescript-template/commit/9bd7ec196baeb6a8d8c6f809880fdd05e6b195ee))
+* **deps:** update dependency ts-node to v10.2.1 ([9f43dfe](https://github.com/theS1LV3R/typescript-template/commit/9f43dfe9305b81fe17ea9f2913a3635b249eafbc))
+* **deps:** update dependency typedoc to v0.21.6 ([ef191bc](https://github.com/theS1LV3R/typescript-template/commit/ef191bc94a68a3a6991e26dfa6d635604b92b7ba))
+* **deps:** update typescript-eslint monorepo to v4.29.1 ([ab1ce7b](https://github.com/theS1LV3R/typescript-template/commit/ab1ce7bf638fccce63bd0088dd6a83c2dccc65b6))
+* **deps:** update typescript-eslint monorepo to v4.29.2 ([4d8ec4f](https://github.com/theS1LV3R/typescript-template/commit/4d8ec4f6e2a62d43c355ef6b14700815b88d7b7b))
+* **renovate:** update renovate config to run every 14 days ([a8f99ed](https://github.com/theS1LV3R/typescript-template/commit/a8f99ed24a62b8d79a363a75a9e2bd1682e41aad))
+
 ## [2.0.0](https://github.com/theS1LV3R/typescript-template/compare/v1.2.9...v2.0.0) (2021-08-05)
 
 
