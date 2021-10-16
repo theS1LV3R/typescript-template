@@ -2,6 +2,44 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.2](https://github.com/theS1LV3R/typescript-template/compare/v2.0.1...v2.0.2) (2021-10-16)
+
+
+### Chore
+
+* **deps:** rebuild lockfile ([0047dfa](https://github.com/theS1LV3R/typescript-template/commit/0047dfa9f33e3a67b931065c8775905bdc8dbee9))
+* **deps:** rebuild lockfile ([2b7c807](https://github.com/theS1LV3R/typescript-template/commit/2b7c807bea60e109b27a0d6e7cc867f7aee22973))
+* **deps:** update commitlint monorepo to v13.2.0 ([58d49b7](https://github.com/theS1LV3R/typescript-template/commit/58d49b7e88125b1559dd1611949a20f9c6430d01))
+* **deps:** update commitlint monorepo to v13.2.1 ([7fe2a6e](https://github.com/theS1LV3R/typescript-template/commit/7fe2a6ee9672dbc954c4a8dc7410ce0ab9550dbf))
+* **deps:** update dependency @types/jest to v27.0.2 ([0c5f73d](https://github.com/theS1LV3R/typescript-template/commit/0c5f73db114b8926e2b61d667fd2148e12f2d21f))
+* **deps:** update dependency eslint to v8 ([44b601b](https://github.com/theS1LV3R/typescript-template/commit/44b601b72efc9bacf6e6ee24865f5fb482d0d23d))
+* **deps:** update dependency eslint-plugin-prettier to v4 ([541654e](https://github.com/theS1LV3R/typescript-template/commit/541654ed7cd955ba53ec8714ed3de3504ef7f453))
+* **deps:** update dependency husky to v7.0.2 ([3841adb](https://github.com/theS1LV3R/typescript-template/commit/3841adb4a23210bfa9efbd66189ca8e76005299b))
+* **deps:** update dependency jest to v27.1.0 ([9092bdb](https://github.com/theS1LV3R/typescript-template/commit/9092bdb72b7964d573473c20ea4610cd72b7e381))
+* **deps:** update dependency jest to v27.2.0 ([d62f0c3](https://github.com/theS1LV3R/typescript-template/commit/d62f0c35466e15eedc0a99045d77d38bdde87397))
+* **deps:** update dependency jest to v27.2.3 ([6a5f936](https://github.com/theS1LV3R/typescript-template/commit/6a5f9362f65b54b93f2303bbc56f126ee0c8a0d7))
+* **deps:** update dependency jest to v27.2.4 ([299c521](https://github.com/theS1LV3R/typescript-template/commit/299c5211c6d16f447ddf41cbbc694cad5a725290))
+* **deps:** update dependency jest to v27.2.5 ([b7003b6](https://github.com/theS1LV3R/typescript-template/commit/b7003b69ad58b2732c163016d7bfe37518ec5fb6))
+* **deps:** update dependency nodemon to v2.0.13 ([b536661](https://github.com/theS1LV3R/typescript-template/commit/b53666103ec368221fff070de78ad9f255b8610a))
+* **deps:** update dependency prettier to v2.4.0 ([2cec5cb](https://github.com/theS1LV3R/typescript-template/commit/2cec5cb656501f53efde8908af3d765dcddcd5d9))
+* **deps:** update dependency prettier to v2.4.1 ([c459165](https://github.com/theS1LV3R/typescript-template/commit/c45916504a2d1bd6b83624e35d83cbb07572de00))
+* **deps:** update dependency ts-jest to v27.0.6 ([e4f2246](https://github.com/theS1LV3R/typescript-template/commit/e4f224630791de5d187683020dc967b4c6a7584a))
+* **deps:** update dependency ts-node to v10.3.0 ([6e6d06c](https://github.com/theS1LV3R/typescript-template/commit/6e6d06c835c7b41ac4707e611e565d0cb0a8e78e))
+* **deps:** update dependency typedoc to v0.21.8 ([2be1a9d](https://github.com/theS1LV3R/typescript-template/commit/2be1a9d4c43ca8eac6e3516dfc1aa505cbb7ac08))
+* **deps:** update dependency typedoc to v0.21.9 ([2524fc3](https://github.com/theS1LV3R/typescript-template/commit/2524fc3bc29a505e584a51d750c452f6133e5998))
+* **deps:** update dependency typedoc to v0.22.3 ([58779a6](https://github.com/theS1LV3R/typescript-template/commit/58779a66d3e15ab1c0d27cc5347a8591eff32da3))
+* **deps:** update dependency typedoc to v0.22.4 ([10a1faf](https://github.com/theS1LV3R/typescript-template/commit/10a1faf1164e831cf6454f594fecfce63f5fcd63))
+* **deps:** update dependency typedoc to v0.22.5 ([e466631](https://github.com/theS1LV3R/typescript-template/commit/e4666314fda9215d5f23160168177180b10033fd))
+* **deps:** update dependency typescript to v4.4.2 ([1915196](https://github.com/theS1LV3R/typescript-template/commit/1915196756687b6ce449d63fa7c3fcf2ad23fdde))
+* **deps:** update dependency typescript to v4.4.3 ([c9add15](https://github.com/theS1LV3R/typescript-template/commit/c9add1571b7a7744809b17af800821c46aebcfa2))
+* **deps:** update dependency typescript to v4.4.4 ([c7d322a](https://github.com/theS1LV3R/typescript-template/commit/c7d322a8833f16f60d1e63ae0aed65fbb0a38ae8))
+* **deps:** update typescript-eslint monorepo to v4.29.3 ([68c2ea2](https://github.com/theS1LV3R/typescript-template/commit/68c2ea2e6804804e1b984293d8a55d727ecc4db2))
+* **deps:** update typescript-eslint monorepo to v4.30.0 ([c823627](https://github.com/theS1LV3R/typescript-template/commit/c823627d3f4afd931d972229221d5de19a63ca30))
+* **deps:** update typescript-eslint monorepo to v4.31.1 ([21afec6](https://github.com/theS1LV3R/typescript-template/commit/21afec62d73daa1fa9719096555b0eae6bb1bf5c))
+* **deps:** update typescript-eslint monorepo to v4.32.0 ([7f820c3](https://github.com/theS1LV3R/typescript-template/commit/7f820c320ccfc51910621c204a4825a70683a348))
+* **deps:** update typescript-eslint monorepo to v4.33.0 ([2c5f021](https://github.com/theS1LV3R/typescript-template/commit/2c5f0210abdf1d3fbba98cc071233697da46cd12))
+* **deps:** update typescript-eslint monorepo to v5 ([58bf7b2](https://github.com/theS1LV3R/typescript-template/commit/58bf7b27370372bfc9c3d1bde3a5103c4067efc2))
+
 ### [2.0.1](https://github.com/theS1LV3R/typescript-template/compare/v2.0.0...v2.0.1) (2021-08-22)
 
 
